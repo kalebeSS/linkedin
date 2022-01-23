@@ -6,7 +6,7 @@ class Linkedin:
     def __init__(self, user, password):
         self.user = user
         self.password = password
-        self.driver = webdriver.Chrome(executable_path="selenium\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="chromedriver.exe")
         
     def site(self):
         #OPEN SITE
